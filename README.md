@@ -2,7 +2,7 @@
 
 A Kotlin Multiplatform (KMP) project demonstrating a shared UI and business logic for a User Profile application using Compose Multiplatform.
 
-<img width="720" height="1520" alt="Screenshot_20260615_014138" src="https://github.com/user-attachments/assets/b096168d-7012-45c2-ad92-5a35d77890b7" />
+<img width="500" height="800" alt="Screenshot_20260615_014138" src="https://github.com/user-attachments/assets/b096168d-7012-45c2-ad92-5a35d77890b7" />
 
 ---
 
