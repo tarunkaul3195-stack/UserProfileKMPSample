@@ -1,0 +1,28 @@
+[versions]
+agp = "8.5.2"
+kotlin = "1.9.20"
+compose = "1.5.11"
+compose-compiler = "1.5.4"
+compose-material3 = "1.2.0"
+androidx-activityCompose = "1.8.0"
+kamel = "0.9.3"
+
+[libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "compose" }
+compose-ui-tooling = { module = "org.jetbrains.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "org.jetbrains.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "compose" }
+compose-material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "compose" }
+compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "compose" }
+kamel = { module = "media.kamel:kamel-image", version.ref = "kamel" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
