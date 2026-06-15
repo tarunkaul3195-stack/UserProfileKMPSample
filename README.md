@@ -31,6 +31,7 @@ A Kotlin Multiplatform (KMP) project demonstrating a shared UI and business logi
 - Kotlinx Serialization (JSON parsing)
 - Kamel (image loading)
 - Coroutines (async tasks)
+- MVVM and Repository Pattern
 
 ---
 
