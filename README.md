@@ -4,6 +4,8 @@ A Kotlin Multiplatform (KMP) project demonstrating a shared UI and business logi
 
 <img width="500" height="800" alt="Screenshot_20260615_014138" src="https://github.com/user-attachments/assets/b096168d-7012-45c2-ad92-5a35d77890b7" />
 
+Video:
+https://github.com/user-attachments/assets/2f2b6d9a-91cb-4353-902e-cf8fd4d80e34
 ---
 
 ## ✨ Features
